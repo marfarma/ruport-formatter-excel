@@ -6,11 +6,14 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "ruport-formatter-excel"
     gem.summary = %Q{Ruport formatting to excel via 'spreadsheet' gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = gem.summary # blah
     gem.email = "erik@hollensbe.org"
     gem.homepage = "http://github.com/erikh/ruport-formatter-excel"
     gem.authors = ["Erik Hollensbe"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_development_dependency "rdoc"
+    gem.add_dependency 'ruport'
+    gem.add_dependency 'spreadsheet'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

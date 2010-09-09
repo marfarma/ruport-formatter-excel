@@ -1,6 +1,6 @@
 = ruport-formatter-excel
 
-Description goes here.
+You'll probably want to see Ruport::Formatter::Excel.
 
 == Note on Patches/Pull Requests
  
